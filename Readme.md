@@ -1,6 +1,6 @@
 # Data Extraction from Image using Gemini 2.5 API
 
-![Data Extraction](Static/Data_extract.png)
+![Data](Static/Data_extract.png)
 
 <h1>Data Extraction From Images using AI</h1>
 
