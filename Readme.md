@@ -47,9 +47,7 @@ Nature of Text:
 It may be summarized text, extracted fields (like dates, names, numbers), or structured sections.
 Why It Matters: This is the refined data that will be used for export, storage, or further analysis.</p>
 
-<h3>
-
-<h3> 🟨🟩 5. EXCEL (Final Output Format)</h3>
+<h2> 🟨🟩 5. EXCEL (Final Output Format)</h2>
 
 <p>Purpose: To store and organize the text output in a tabular/spreadsheet format.
 Benefits:
