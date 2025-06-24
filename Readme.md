@@ -18,6 +18,8 @@ By combining image processing with natural language prompts, this system enables
 What It Contains: This could be any visual format such as scanned documents, invoices, receipts, forms, or handwritten notes.
 Role in Workflow: It is the primary source of unstructured data. It may contain tabular data, numbers, text, or other information of interest that needs to be extracted.<p>
 
+---
+
 ## <h3>🟨🟦🔷 2. PROMPT (User Instruction)<h3>
 
 <p>
@@ -47,18 +49,20 @@ Why It Matters: This is the refined data that will be used for export, storage, 
 
 <h3>
 
-<h3> 🟨🟩 5. EXCEL (Final Output Format)
+<h3> 🟨🟩 5. EXCEL (Final Output Format)</h3>
+
 <p>Purpose: To store and organize the text output in a tabular/spreadsheet format.
 Benefits:
 Easy to analyze, visualize, or share.
 Can be used for further processing (e.g., sorting, filtering, report generation).
 Common Use Cases: Data logs, report generation, business intelligence, record-keeping.</p>
-<h3>
 
-<h4>🟨🟨✅ Conclusion
+<h2>🟨🟨✅ Conclusion </h2>
+
+<p>
 This project creates an intelligent pipeline that extracts meaningful data from unstructured images by combining:
 Visual input (IMAGE),
 Instructional guidance (PROMPT),
 and AI-based fusion and processing (GEMINI 2.5 FLASH).
 The end result is clean, actionable TEXT, which is then exported to Excel for structured usage.
-This system enhances productivity, reduces manual data entry, and provides a scalable solution for document automation tasks.
+This system enhances productivity, reduces manual data entry, and provides a scalable solution for document automation tasks.<p>
