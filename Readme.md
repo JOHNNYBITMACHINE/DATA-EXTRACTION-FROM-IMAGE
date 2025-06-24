@@ -1,84 +1,64 @@
-<body style="background-image: linear-gradient(#0f0c29,#302b63,#24243e);">
-                <h1 style="color: white;"> Data Extraction from Image using Gemini 2.5 API</h1>
+# Data Extraction from Image using Gemini 2.5 API
 
-            ![Data Extraction](Static/Data_extract.png)
+![Data Extraction](Static/Data_extract.png)
 
-            <br>
-            <br>
+<h1>Data Extraction From Images using AI</h1>
 
-            <h1 style="color: white;">Data Extraction From Images using AI</h1>
+<h3>Introduction<h3>
 
-            <h3 style="color: white;">Introduction<h3>
+<p>In today’s data-driven world, extracting meaningful information from unstructured visual content like scanned documents, receipts, and forms is a growing challenge. Manual data entry is time-consuming, error-prone, and inefficient. This project introduces an intelligent automation pipeline that leverages the capabilities of Gemini 2.5 Flash, a powerful multimodal AI model, to extract data from images using prompt-based guidance and convert it into structured Excel format.
 
-            <p style="color: white;">In today’s data-driven world, extracting meaningful information from unstructured visual content like scanned documents, receipts, and forms is a growing challenge. Manual data entry is time-consuming, error-prone, and inefficient. This project introduces an intelligent automation pipeline that leverages the capabilities of Gemini 2.5 Flash, a powerful multimodal AI model, to extract data from images using prompt-based guidance and convert it into structured Excel format.
+By combining image processing with natural language prompts, this system enables dynamic and flexible extraction of targeted information. Whether it's a table, invoice, or handwritten note, users can guide the model using custom instructions, and the system intelligently returns clean, context-aware text ready for export. This solution enhances speed, accuracy, and scalability for real-world document processing tasks.<p>
 
-            By combining image processing with natural language prompts, this system enables dynamic and flexible extraction of targeted information. Whether it's a table, invoice, or handwritten note, users can guide the model using custom instructions, and the system intelligently returns clean, context-aware text ready for export. This solution enhances speed, accuracy, and scalability for real-world document processing tasks.<p>
-            <br>
-            <br>
+<h3>🟨🟨 IMAGE (Input Source)<h3>
 
-            <h3 style="color: white;">🟨🟨 IMAGE (Input Source)<h3>
+<p>
+   Purpose: Serves as the raw visual input.
 
-            <br>
-            <br>
+What It Contains: This could be any visual format such as scanned documents, invoices, receipts, forms, or handwritten notes.
+Role in Workflow: It is the primary source of unstructured data. It may contain tabular data, numbers, text, or other information of interest that needs to be extracted.<p>
 
-            <p style="color: white;">
-            Purpose: Serves as the raw visual input.
+<h3>🟨🟦🔷 2. PROMPT (User Instruction)<h3>
 
-            What It Contains: This could be any visual format such as scanned documents, invoices, receipts, forms, or handwritten notes.
-            Role in Workflow: It is the primary source of unstructured data. It may contain tabular data, numbers, text, or other information of interest that needs to be extracted.</p>
+<p>
+Purpose: Provides specific guidance or questions related to the image.
+What It Might Contain: Instructions like:
+“Extract invoice number and date.”
+“Find all email addresses in this image.”
+“Summarize this document.”
+Role in Workflow: Acts as a filter or lens that tells the AI model (Gemini 2.5 Flash) what to look for and how to interpret the image.<p>
 
-            <br>
-            <br>
+<h3>🟨🟩 3. GEMINI 2.5 FLASH (AI Engine)>
 
-            <h3 style="color: white;">🟨🟦🔷 2. PROMPT (User Instruction)<h3>
+Purpose: The core processing engine powered by multimodal AI (text + image input).
 
-            <p style="color: white;">
-                Purpose: Provides specific guidance or questions related to the image.
-                What It Might Contain: Instructions like:
-                “Extract invoice number and date.”
-                “Find all email addresses in this image.”
-                “Summarize this document.”
-                Role in Workflow: Acts as a filter or lens that tells the AI model (Gemini 2.5 Flash) what to look for and how to interpret the image.
-            <p>
+Key Functions:
 
-            <h3 style="color: white;">🟨🟩 3. GEMINI 2.5 FLASH (AI Engine)></h3>
+Image Processing: Uses OCR (Optical Character Recognition) to read and understand text in the image.
+Prompt Processing: Understands the user’s prompt and applies contextual understanding.
+Fusion: Combines insights from the image and the prompt to generate meaningful output.
+Output: Clean, structured TEXT extracted from the image based on the prompt.
 
-            <p style="color: white;">Purpose: The core processing engine powered by multimodal AI (text + image input).
+<h3>🟨🟪 4. TEXT (Intermediary Output)
+<p>Purpose: Contains the clean, refined textual output generated by Gemini 2.5 Flash.
+Nature of Text:
+It may be summarized text, extracted fields (like dates, names, numbers), or structured sections.
+Why It Matters: This is the refined data that will be used for export, storage, or further analysis.</p>
 
-            Key Functions:
+<h3>
 
-            Image Processing: Uses OCR (Optical Character Recognition) to read and understand text in the image.
-            Prompt Processing: Understands the user’s prompt and applies contextual understanding.
-            Fusion: Combines insights from the image and the prompt to generate meaningful output.
-            Output: Clean, structured TEXT extracted from the image based on the prompt.</p>
+<h3> 🟨🟩 5. EXCEL (Final Output Format)
+<p>Purpose: To store and organize the text output in a tabular/spreadsheet format.
+Benefits:
+Easy to analyze, visualize, or share.
+Can be used for further processing (e.g., sorting, filtering, report generation).
+Common Use Cases: Data logs, report generation, business intelligence, record-keeping.</p>
+<h3>
 
-            <h3 style="color: white;">🟨🟪 4. TEXT (Intermediary Output)</h3>
-            <p style="color: white;">Purpose: Contains the clean, refined textual output generated by Gemini 2.5 Flash.
-                Nature of Text:
-                It may be summarized text, extracted fields (like dates, names, numbers), or structured sections.
-                Why It Matters: This is the refined data that will be used for export, storage, or further analysis.</p>
-
-            <h3 style="color: white;">
-
-            <h3 style="color: white;"> 🟨🟩 5. EXCEL (Final Output Format)</h3>
-            <p style="color: white;">Purpose: To store and organize the text output in a tabular/spreadsheet format.
-                Benefits:
-                Easy to analyze, visualize, or share.
-                Can be used for further processing (e.g., sorting, filtering, report generation).
-                Common Use Cases: Data logs, report generation, business intelligence, record-keeping.
-            </p>
-
-            <br>
-            <br>
-
-            <h3 style="color: white;">🟨🟨✅ Conclusion</h3>
-
-
-            <p style="color: white;">This project creates an intelligent pipeline that extracts meaningful data from unstructured images by combining:
-            Visual input (IMAGE),
-            Instructional guidance (PROMPT),
-            and AI-based fusion and processing (GEMINI 2.5 FLASH).
-            The end result is clean, actionable TEXT, which is then exported to Excel for structured usage.
-            This system enhances productivity, reduces manual data entry, and provides a scalable solution for document automation tasks.</p>
-
-</body>
+<h4>🟨🟨✅ Conclusion
+This project creates an intelligent pipeline that extracts meaningful data from unstructured images by combining:
+Visual input (IMAGE),
+Instructional guidance (PROMPT),
+and AI-based fusion and processing (GEMINI 2.5 FLASH).
+The end result is clean, actionable TEXT, which is then exported to Excel for structured usage.
+This system enhances productivity, reduces manual data entry, and provides a scalable solution for document automation tasks.
