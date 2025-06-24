@@ -1,0 +1,46 @@
+<mxfile host="65bd71144e">
+    <diagram id="S-8D51mELzqob4-LhIfS" name="Page-1">
+        <mxGraphModel dx="2194" dy="2750" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="#FFFF99" math="0" shadow="1">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="16" style="edgeStyle=none;html=1;entryX=0;entryY=0;entryDx=0;entryDy=0;" parent="1" target="19" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="620" y="-866" as="targetPoint"/>
+                        <mxPoint x="260" y="-819.7777777777778" as="sourcePoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="15" value="IMAGE" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#d80073;strokeColor=#A50040;fontColor=#ffffff;gradientColor=default;rounded=1;sketch=1;curveFitting=1;jiggle=2;glass=0;shadow=1;strokeWidth=10;" parent="1" vertex="1">
+                    <mxGeometry x="94" y="-944" width="160" height="160" as="geometry"/>
+                </mxCell>
+                <mxCell id="18" style="edgeStyle=none;html=1;" parent="1" source="17" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="690" y="-606" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="17" value="PROMPT" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#0050ef;fontColor=#ffffff;strokeColor=#001DBC;gradientColor=#FF33FF;shadow=1;glass=0;rounded=1;strokeWidth=9;perimeterSpacing=6;" parent="1" vertex="1">
+                    <mxGeometry x="620" y="-936" width="140" height="140" as="geometry"/>
+                </mxCell>
+                <mxCell id="20" style="edgeStyle=none;html=1;" parent="1" source="19" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="440" y="-536" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="19" value="GEMINI 2.5 FLASH" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#008a00;fontColor=#ffffff;strokeColor=#005700;gradientColor=#6666FF;strokeWidth=9;" parent="1" vertex="1">
+                    <mxGeometry x="630" y="-606" width="140" height="140" as="geometry"/>
+                </mxCell>
+                <mxCell id="22" style="edgeStyle=none;html=1;" parent="1" source="21" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="320" y="-396" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="21" value="TEXT" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#6a00ff;fontColor=#ffffff;strokeColor=#3700CC;gradientColor=#FF0080;strokeWidth=7;" parent="1" vertex="1">
+                    <mxGeometry x="210" y="-566" width="220" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="23" value="&lt;font style=&quot;color: rgb(0, 0, 0);&quot;&gt;EXCEL&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#66FF66;fontColor=#ffffff;strokeColor=#2D7600;gradientColor=#FFFFFF;strokeWidth=9;" parent="1" vertex="1">
+                    <mxGeometry x="190" y="-396" width="270" height="60" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
